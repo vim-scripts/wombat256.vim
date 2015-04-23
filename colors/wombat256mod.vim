@@ -43,6 +43,10 @@ hi Pmenu		ctermfg=230		ctermbg=238						guifg=#ffffd7	guibg=#444444
 hi PmenuSel		ctermfg=232		ctermbg=192						guifg=#080808	guibg=#cae982
 endif
 
+if version >= 703
+hi ColorColumn	ctermfg=252		ctermbg=238		cterm=none		guifg=#444444	guibg=#444444	gui=none
+endif
+
 " Diff highlighting
 hi DiffAdd						ctermbg=17										guibg=#2a0d6a
 hi DiffDelete	ctermfg=234		ctermbg=60		cterm=none		guifg=#242424	guibg=#3e3969	gui=none
